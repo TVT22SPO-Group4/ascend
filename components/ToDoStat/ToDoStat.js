@@ -89,7 +89,7 @@ const ToDoStat = ({ data }) => {
   };
   return (
     <View>
-      <Text style={[dynamicStyles.text, { paddingLeft: 32, paddingBottom: 10 }]}>ToDo's</Text>
+      <Text style={[dynamicStyles.text, { paddingLeft: 32, paddingBottom: 10 }]}>Tasks:</Text>
       <View style={dynamicStyles.todoStatisticButtons}>
         <Button title="<" onPress={handlePreviousWeek} />
         <Text style={dynamicStyles.text}>Week: {getWeekNumber(currentWeek)}</Text>
